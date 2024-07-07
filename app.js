@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', 'views');
 app.set('view engine', 'ejs');
 
 

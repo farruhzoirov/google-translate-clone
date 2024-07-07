@@ -1,5 +1,5 @@
 const gettingMainPage = async (req, res) => {
-  res.render('main');
+  res.render('main.ejs');
 }
 
 

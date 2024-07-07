@@ -20,8 +20,9 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'assets')));
 app.use(bodyParser.json());
 
-app.use(convertRouter);
 app.use(getPageRouter);
+app.use(convertRouter);
+
 
 const port = process.env.PORT || 5000;
 
